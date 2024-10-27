@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node -e \"require('grunt').tasks(['mochaTest']);\"",
-    "start": "./run-cli.js"
+    "start": "./run-cli.js --trace-warnings"
   },
   "repository": {
     "type": "git",
@@ -28,22 +28,22 @@
   "author": "Florent Galland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Flolagale/mailin/issues"
+    "url": "https://github.com/loomio/mailin/issues"
   },
-  "homepage": "https://github.com/Flolagale/mailin",
+  "homepage": "https://github.com/loomio/mailin",
   "dependencies": {
-    "bluebird": "^2.9.30",
+    "bluebird": "^2.11.0",
     "commander": "^2.8.1",
-    "extend": "^2.0.1",
+    "extend": "^3.0.2",
     "forever-monitor": "^1.5.2",
-    "html-to-text": "^1.3.1",
+    "html-to-text": "^5.1.1",
     "languagedetect": "^1.1.1",
-    "lodash": "^3.9.3",
-    "mailparser": "^0.5.1",
+    "lodash": "^3.10.1",
+    "mailparser": "^0.6.2",
     "node-uuid": "^1.4.3",
     "semver": "^5.0.1",
     "shelljs": "^0.5.1",
-    "smtp-server": "^1.4.0",
+    "smtp-server": "^3.13.6",
     "spamc": "0.0.5",
     "superagent": "^1.2.0",
     "winston": "^1.0.0"

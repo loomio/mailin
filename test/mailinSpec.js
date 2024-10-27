@@ -261,7 +261,7 @@ describe('Mailin', function () {
         mailin.on('message', function (connection, data) {
             // console.log(data);
             try {
-                data.text.should.eql('HELLO WORLD\nThis is a line that needs to be at least a little longer than 80 characters so\nthat we can check the character wrapping functionality.\n\nThis is a test of a link [https://github.com/Flolagale/mailin] .');
+                data.text.should.eql('HELLO WORLD\nThis is a line that needs to be at least a little longer than 80 characters so\nthat we can check the character wrapping functionality.\n\nThis is a test of a link [https://github.com/Flolagale/mailin].');
                 done();
             } catch (e) {
                 done(e);
