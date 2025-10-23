@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node -e \"require('grunt').tasks(['mochaTest']);\"",
-    "start": "./run-cli.js"
+    "start": "./run-cli.js -w $WEBHOOK_URL"
   },
   "repository": {
     "type": "git",
