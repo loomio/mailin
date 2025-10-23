@@ -51,7 +51,7 @@ mailin.start({
     port: program.port || 25,
     host: program.host || '0.0.0.0',
     webhook: program.webhook || 'http://localhost:3000/webhook',
-    logFile: program.logFile || '/var/log/mailin.log',
+    logFile: program.logFile || null,
     disableDkim: program.disableDkim,
     disableSpf: program.disableSpf,
     disableSpamScore: program.disableSpamScore,
